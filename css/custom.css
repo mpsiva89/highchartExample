@@ -1,0 +1,6 @@
+div.floatL{float: left;margin-right: 10px;}
+label{width: 50px;display: inline-block;}
+.center{margin:0 auto;width: 900px;}
+.heading{width: 294px;padding-bottom: 10px;font-size: 20px;font-weight: bold;}
+.graphContainer{width: 600px; height: 400px;}
+.buttonContainer{width: 150px !important; padding: 10px 0 10px 0;}

@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="css/custom.css" type="text/css"/>
+	</head>
+	<body>
+        <div>
+            <div class="center heading">Interest received for month</div>
+            <div class="center">
+                <div class="floatL">
+                    <label>Jan</label>
+                    <input class="monthlyInterest" type="text" value="700000"/>
+                </div>
+                <div class="floatL">
+                    <label>Feb</label>
+                    <input class="monthlyInterest" type="text" value="690000"/>
+                </div>
+                <div class="floatL">
+                    <label>March</label>
+                    <input class="monthlyInterest" type="text" value="950000"/>
+                </div>
+                <div>
+                    <label>April</label>
+                    <input class="monthlyInterest" type="text" value="1450000"/>
+                </div>
+            </div>
+            <div class="center">
+                <div class="floatL">
+                    <label>May</label>
+                    <input class="monthlyInterest" type="text" value="1820000"/>
+                </div>
+                <div class="floatL">
+                    <label>Jun</label>
+                    <input class="monthlyInterest" type="text" value="2150000"/>
+                </div>
+                <div class="floatL">
+                    <label>Jul</label>
+                    <input class="monthlyInterest" type="text" value="2520000"/>
+                </div>
+                <div>
+                    <label>Aug</label>
+                    <input class="monthlyInterest" type="text" value="2650000"/>
+                </div>
+            </div>
+            <div class="center">
+                <div class="floatL">
+                    <label>Sep</label>
+                    <input class="monthlyInterest" type="text" value="2330000"/>
+                </div>
+                <div class="floatL">
+                    <label>Oct</label>
+                    <input class="monthlyInterest" type="text" value="1830000"/>
+                </div>
+                <div class="floatL">
+                    <label>Nov</label>
+                    <input class="monthlyInterest" type="text" value="1390000"/>
+                </div>
+                <div>
+                    <label>Dec</label>
+                    <input class="monthlyInterest" type="text" value="960000"/>
+                </div>
+            </div>
+            <div class="center buttonContainer">
+                <input type="button" value="Show Graphs" id="showGraph"/>
+            </div>
+        </div>
+        <div id="lineContainer" class="floatL graphContainer"></div>
+        <div id="areaContainer" class="floatL graphContainer"></div>
+        <div id="barContainer" class="floatL graphContainer"></div>
+        <div id="columnContainer" class="floatL graphContainer"></div>
+        
+        <script type="text/javascript" src="lib/jquery.min.js"></script>
+        <script type="text/javascript" src="lib/highcharts.js"></script>
+        <script type="text/javascript" src="js/chartComponent.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+	</body>
+</html>
